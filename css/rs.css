@@ -14,6 +14,12 @@ header {
 	background-color: #575837;
 	padding: 1em;
 }
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #F58022;
+	text-transform: uppercase;
+	margin-top: 0;
+}
 nav {
 	border-top: 5px solid #37241A;
 	background-color: #DC4626;
@@ -35,30 +41,32 @@ nav li {
 	display: inline-block;
 	margin-right: 1em;
 }
+#active {
+	text-decoration: underline;
+}
 nav a {
 	color: #E6DFB5;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0.5em 0.75em;
-
 }
 nav a:hover {
 	color: #37241A;
 }
 aside {
-	float: left;
+	float: right;
 	background-color: #E6DFB5;
 	border-radius: 10px;
 	width: 30%;
-	margin:  2% 0 2% 2%;
+	margin:  2% 2% 2% 0;
 	padding: 1em;
 }
 main {
-	float: right;
+	float: left;
 	background-color:  #E6DFB5;
 	border-radius: 10px;
 	width: 65%;
-	margin: 2% 2% 2% 0;
+	margin: 2% 0 2% 2%;
 	padding: 1em;
 }
 footer {
