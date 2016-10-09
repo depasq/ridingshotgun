@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	background-color:  #37241A;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #575837;
+	padding: 1em;
+}
+nav {
+	border-top: 5px solid #37241A;
+	background-color: #DC4626;
+	padding: 1em;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.social {
+	float: right;
+}
+.fa-bandcamp::before {
+	content:"▱";
+}
+nav li {
+	float:  none;
+	display: inline-block;
+	margin-right: 1em;
+}
+nav a {
+	color: #E6DFB5;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0.5em 0.75em;
+
+}
+nav a:hover {
+	color: #37241A;
+}
+aside {
+	float: left;
+	background-color: #E6DFB5;
+	border-radius: 10px;
+	width: 30%;
+	margin:  2% 0 2% 2%;
+	padding: 1em;
+}
+main {
+	float: right;
+	background-color:  #E6DFB5;
+	border-radius: 10px;
+	width: 65%;
+	margin: 2% 2% 2% 0;
+	padding: 1em;
+}
+footer {
+	background-color: #FAAE2F;
+	color: #37241A;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #37241A;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #E6DFB5;
+}
+footer p {
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
