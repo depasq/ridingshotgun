@@ -30,19 +30,10 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
-.social {
-	float: right;
-}
-.fa-bandcamp::before {
-	content:"▱";
-}
 nav li {
 	float:  none;
 	display: inline-block;
 	margin-right: 1em;
-}
-#active {
-	text-decoration: underline;
 }
 nav a {
 	color: #E6DFB5;
@@ -53,6 +44,15 @@ nav a {
 nav a:hover {
 	color: #37241A;
 }
+.social {
+	float: right;
+}
+.fa-bandcamp::before {
+	content:"▱";
+}
+#active {
+	text-decoration: underline;
+}
 aside {
 	float: right;
 	background-color: #E6DFB5;
@@ -61,6 +61,15 @@ aside {
 	margin:  2% 2% 2% 0;
 	padding: 1em;
 }
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+aside li {
+	float: none;
+	margin-bottom: 2%;
+}
 main {
 	float: left;
 	background-color:  #E6DFB5;
@@ -68,6 +77,9 @@ main {
 	width: 65%;
 	margin: 2% 0 2% 2%;
 	padding: 1em;
+}
+.artwork {
+	max-width: 30%;
 }
 footer {
 	background-color: #FAAE2F;
