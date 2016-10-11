@@ -12,16 +12,27 @@ body {
 }
 header {
 	background-color: #575837;
+	border-bottom: 5px solid #37241A;
 	padding: 1em;
 }
-h1, h2, h3, h4 {
+h1, h3, h4 {
 	font-family: 'Roboto', sans-serif;
 	color: #F58022;
 	text-transform: uppercase;
-	margin-top: 0;
+	margin: 0 0 0.5em 0;
+}
+h2 {
+	font-family: 'Robot', sans-serif;
+	color: #DC4626;
+	text-transform: uppercase;
+	margin: 0;
 }
 nav {
-	border-top: 5px solid #37241A;
+/*	position: fixed;
+	top: 100;
+	left: 0;
+	width: 100%;
+*/	/*border-top: 5px solid #37241A;*/
 	background-color: #DC4626;
 	padding: 1em;
 }
@@ -56,7 +67,7 @@ nav a:hover {
 aside {
 	float: right;
 	background-color: #E6DFB5;
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 30%;
 	margin:  2% 2% 2% 0;
 	padding: 1em;
@@ -73,19 +84,70 @@ aside li {
 main {
 	float: left;
 	background-color:  #E6DFB5;
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 65%;
-	margin: 2% 0 2% 2%;
+	margin: 2% 0 5% 2%;
 	padding: 1em;
+}
+main a {
+	color: #DC4626;
+	text-decoration: none;
+}
+main a:hover {
+	color: #37241A;
+}
+main hr {
+	display: block;
+	margin: auto;
+	margin-bottom: 1em;
+	height: 1px;
+	width: 75%;
+	border 0;
+	border-top: 1px solid #37241A;
 }
 .artwork {
 	max-width: 30%;
 }
+#band {
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 90%;
+}
+#players {
+	display:block;
+	margin-left:2%;
+	margin-right:2%;	
+}
+#shows ul {
+	list-style-type: none;
+	margin-left: 2%;
+	padding: 0;	
+}
+#shows li {
+	float: none;
+}
+figcaption {
+	text-align: center;
+}
 footer {
-	background-color: #FAAE2F;
+	position:fixed;
+	bottom:0;
+	right:0;
+	width: 100%;
 	color: #37241A;
 	padding: 1em;
+	margin-top: 1em;
 	text-align: center;
+	background: rgba(245,129,34,1);
+	background: -moz-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,129,34,1)), color-stop(50%, rgba(250,176,47,1)), color-stop(100%, rgba(245,129,34,1)));
+	background: -webkit-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
+	background: -o-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
+	background: -ms-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
+	background: linear-gradient(to right, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58122', endColorstr='#f58122', GradientType=1 );	
 	clear: both;
 }
 footer a {
