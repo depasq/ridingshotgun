@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Riding Shotgun</title>
-  <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy" rel="stylesheet"> 
-  <link href="css/rs.css" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="https://use.fontawesome.com/54eae383ff.js"></script>
-</head>
+<!--#include virtual="html-header.html"-->
 
 <body>
 	<div id="wrapper">
     <!--#include virtual="header.html"-->
-    <nav>
-      <ul>
-        <li><a href="./index.html"><i class="fa fa-home fa-lg">&nbsp;</i>Home</a></li>
-        <li id="active"><a href="./about.html"><i class="fa fa-question-circle fa-lg">&nbsp;</i>About</a></li>
-        <li><a href="./media.html"><i class="fa fa-music fa-lg">&nbsp;</i>Media</a></li>
-        <li><a href="./shows.html"><i class="fa fa-calendar fa-lg">&nbsp;</i>Shows</a></li>
-         <li class="social"><a href="http://ridingsh0tgun.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp fa-lg" aria-hidden="true"></i></a></li>
-        <li class="social"><a href="https://twitter.com/ridingshotgun" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-        <li class="social"><a href="https://www.facebook.com/ridingshotgunband" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
-      </ul>
-    </nav>
+    <div class="nav-wrap">
+      <nav>
+        <ul>
+          <li><a href="./index.html"><i class="fa fa-home fa-lg">&nbsp;</i>Home</a></li>
+          <li id="active"><a href="./about.html"><i class="fa fa-question-circle fa-lg">&nbsp;</i>About</a></li>
+          <li><a href="./media.html"><i class="fa fa-music fa-lg">&nbsp;</i>Media</a></li>
+          <li><a href="./shows.html"><i class="fa fa-calendar fa-lg">&nbsp;</i>Shows</a></li>
+           <li class="social"><a href="http://ridingsh0tgun.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp fa-lg" aria-hidden="true"></i></a></li>
+          <li class="social"><a href="https://twitter.com/ridingshotgun" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li class="social"><a href="https://www.facebook.com/ridingshotgunband" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+    </div>
     <aside>
       <!--#include virtual="news.html"-->
     </aside>
@@ -44,5 +39,6 @@
       <!--#include virtual="footer.html"-->
     </footer>
   </div>
+  <script type="text/javascript" src="js/sticky-nav.js"></script>
 </body>
 </html>

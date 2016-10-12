@@ -28,11 +28,6 @@ h2 {
 	margin: 0;
 }
 nav {
-/*	position: fixed;
-	top: 100;
-	left: 0;
-	width: 100%;
-*/	/*border-top: 5px solid #37241A;*/
 	background-color: #DC4626;
 	padding: 1em;
 }
@@ -55,11 +50,20 @@ nav a {
 nav a:hover {
 	color: #37241A;
 }
+.scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 .social {
 	float: right;
 }
 .fa-bandcamp::before {
 	content:"▱";
+}
+.nav-wrap {
+	height: 50px;
 }
 #active {
 	text-decoration: underline;
@@ -127,6 +131,12 @@ main hr {
 }
 #shows li {
 	float: none;
+}
+.dates {
+	border-left: 1px solid #37241A;
+}
+.dates li {
+	padding-left: 1em;
 }
 figcaption {
 	text-align: center;
