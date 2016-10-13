@@ -17,7 +17,8 @@ header {
 }
 h1, h3, h4 {
 	font-family: 'Roboto', sans-serif;
-	color: #F58022;
+	/*color: #F58022;*/
+	color: #B41300; /* more contrast */
 	text-transform: uppercase;
 	margin: 0 0 0.5em 0;
 }
@@ -71,6 +72,7 @@ nav a:hover {
 aside {
 	float: right;
 	background-color: #E6DFB5;
+	color: #222;
 	border-radius: 5px;
 	width: 30%;
 	margin:  2% 2% 2% 0;
@@ -88,6 +90,7 @@ aside li {
 main {
 	float: left;
 	background-color:  #E6DFB5;
+	color: #222;
 	border-radius: 5px;
 	width: 65%;
 	margin: 2% 0 5% 2%;
@@ -141,6 +144,17 @@ main hr {
 figcaption {
 	text-align: center;
 }
+table {
+	margin: auto;
+	text-align: center;
+}
+table tr td {
+	padding: 0.5em;
+}
+table thead {
+	text-decoration: underline;
+	font-size: 1.5em;
+}
 footer {
 	position:fixed;
 	bottom:0;
@@ -162,7 +176,7 @@ footer {
 }
 footer a {
 	color: #37241A;
-	text-decoration: none;
+	text-decoration: underline;
 }
 footer a:hover {
 	color: #E6DFB5;
