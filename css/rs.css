@@ -112,8 +112,23 @@ main hr {
 	border 0;
 	border-top: 1px solid #37241A;
 }
-.artwork {
+#art-wrap {
+	clear: both;
+}
+#front {
+	float: left;
 	max-width: 30%;
+	margin:auto;
+}
+#back {
+	float:left;
+	max-width: 30%;
+	margin: 0 1em 0 1em;
+}
+#art-wrap {
+	width: 100%;
+	margin-left: auto;
+	margin-bottom: 1em;
 }
 #band {
 	display: block;
@@ -121,6 +136,15 @@ main hr {
 	margin-left:auto;
 	margin-right:auto;
 	max-width: 90%;
+}
+#owl {
+	float: left;
+	margin-top: 0.2;
+	margin-right: 1em;
+	max-width: 15%;
+}
+#owl-wrap {
+	clear: left;
 }
 #players {
 	display:block;
@@ -143,6 +167,24 @@ main hr {
 }
 figcaption {
 	text-align: center;
+}
+#cols {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+}
+#cols p:first-of-type {
+	margin:0;
+	padding:0;
 }
 table {
 	margin: auto;
