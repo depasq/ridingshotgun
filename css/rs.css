@@ -165,7 +165,11 @@ main hr {
 .dates li {
 	padding-left: 1em;
 }
+figure img {
+	border: 1px solid #222;
+}
 figcaption {
+	margin-top: 0.5em;
 	text-align: center;
 }
 #cols {
