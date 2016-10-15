@@ -27,6 +27,7 @@ h2 {
 	color: #DC4626;
 	text-transform: uppercase;
 	margin: 0;
+	margin-bottom: 1em;
 }
 nav {
 	background-color: #DC4626;
@@ -119,11 +120,12 @@ main hr {
 	float: left;
 	max-width: 30%;
 	margin:auto;
+	margin-bottom: 1em;
 }
 #back {
 	float:left;
 	max-width: 30%;
-	margin: 0 1em 0 1em;
+	margin: 0 1em 1em 1em;
 }
 #art-wrap {
 	width: 100%;
@@ -158,6 +160,14 @@ main hr {
 }
 #shows li {
 	float: none;
+}
+#movie {
+	display: block;
+	margin:auto;
+	padding:auto;
+	max-width: 90%;
+	margin-top:1em;
+	margin-bottom: 1em;
 }
 .dates {
 	border-left: 1px solid #37241A;
