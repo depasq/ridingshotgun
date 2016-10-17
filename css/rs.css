@@ -56,6 +56,9 @@ article {
 	display: block;
 	clear: both;
 }
+article iframe {
+	border: none;
+}
 .scrolled {
 	position: fixed;
 	top: 0;
