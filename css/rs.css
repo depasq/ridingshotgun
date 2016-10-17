@@ -52,6 +52,10 @@ nav a {
 nav a:hover {
 	color: #37241A;
 }
+article {
+	display: block;
+	clear: both;
+}
 .scrolled {
 	position: fixed;
 	top: 0;
@@ -112,9 +116,6 @@ main hr {
 	width: 75%;
 	border 0;
 	border-top: 1px solid #37241A;
-}
-#art-wrap {
-	clear: both;
 }
 #front {
 	float: left;
