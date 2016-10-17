@@ -1,0 +1,22 @@
+Floats are demonstrated here:
+
+nav bar, index.html line 12, css/rs.css line 63
+aside, index.html line 41, css/rs.css line 105
+album artwork (front, back), index.html lines 30,31, rs.css lines 147, 153
+
+Positioning is demonstrated here:
+
+The footer uses fixed positioning to keep it at the bottom of the window, index.html line 45, css/rs.css line 237
+The site uses a little bit of JS to keep the nav bar fixed at the top when the user scrolls the window past the header. 
+js/sticky-nav.js, css/rs.css line 86 (class scrolled is tied to the scroll point of the window)
+
+The 3 CSS techniques I used on the site are:
+
+ 1. Web fonts: html-header.html line 4, css/rs.css line 19
+ 2. Rounded corners: css/rss.css line 126
+ 3. Gradients: css/rss.css line 246 (for the footer)
+
+My table is contained in dates-table.html which is linked as a server-side include in shows.html. 
+ - the table is formatted for accessibilitiy using ARIA roles to denote column and row headers. 
+
+Please see header-text-contrast.png and main-text-contrast.png for screenshots of my color contrast measurements. 

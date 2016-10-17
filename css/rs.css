@@ -26,8 +26,7 @@ h2 {
 	font-family: 'Robot', sans-serif;
 	color: #DC4626;
 	text-transform: uppercase;
-	margin: 0;
-	margin-bottom: 1em;
+	margin: 1em 0 1em 0;
 }
 #skiptomain a {
 	padding: 6px;
@@ -142,24 +141,19 @@ main hr {
 	margin-bottom: 1em;
 	height: 1px;
 	width: 75%;
-	border 0;
+	border: none;
 	border-top: 1px solid #37241A;
 }
 #front {
 	float: left;
 	max-width: 30%;
 	margin:auto;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 #back {
 	float:left;
 	max-width: 30%;
-	margin: 0 1em 1em 1em;
-}
-#art-wrap {
-	width: 100%;
-	margin-left: auto;
-	margin-bottom: 1em;
+	margin: 0 1em 0.5em 1em;
 }
 #band {
 	display: block;
