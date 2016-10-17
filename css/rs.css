@@ -29,6 +29,28 @@ h2 {
 	margin: 0;
 	margin-bottom: 1em;
 }
+#skiptomain a {
+	padding: 6px;
+	position: absolute;
+	font-weight: bold;
+	top:-40px;
+	left: 0px;
+	color: #E6DFB5;
+	border-bottom-right-radius: 6px;
+	background: transparent;
+	-webkit-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 100;	
+}
+#skiptomain a:focus {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background: #DC4626;
+	outline:0;	
+	-webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
 nav {
 	background-color: #DC4626;
 	padding: 1em;
@@ -48,6 +70,9 @@ nav a {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0.5em 0.75em;
+}
+nav a:focus {
+	outline-color: #E6DFB5;
 }
 nav a:hover {
 	color: #37241A;
