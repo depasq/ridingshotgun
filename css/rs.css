@@ -249,7 +249,7 @@ footer {
 	background: -o-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
 	background: -ms-linear-gradient(left, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
 	background: linear-gradient(to right, rgba(245,129,34,1) 0%, rgba(250,176,47,1) 50%, rgba(245,129,34,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58122', endColorstr='#f58122', GradientType=1 );	
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58122', endColorstr='#f58122', GradientType=1 );	*/
 	clear: both;
 }
 footer a {
