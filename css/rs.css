@@ -88,6 +88,7 @@ article iframe {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 100;
 }
 .social {
 	float: right;
@@ -118,6 +119,12 @@ aside ul {
 aside li {
 	float: none;
 	margin-bottom: 2%;
+}
+#side-date {
+	margin-bottom: 0;
+}
+#about-side {
+	margin-bottom: 7%;
 }
 main {
 	float: left;
@@ -176,6 +183,16 @@ main hr {
 	margin-left:2%;
 	margin-right:2%;	
 }
+#shows img {
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 2%;
+	max-width: 95%;
+	border: 1px solid #222;
+	z-index: 0;
+}
 #shows ul {
 	list-style-type: none;
 	margin-left: 2%;
@@ -193,6 +210,10 @@ main hr {
 }
 .dates {
 	border-left: 1px solid #37241A;
+}
+.dates a {
+	color: #DC4626;
+	text-decoration: none;
 }
 .dates li {
 	padding-left: 1em;
